@@ -186,6 +186,50 @@ Stores historical ETF market prices.
 | Max Drawdown | Largest historical portfolio decline |
 
 ---
+---
+
+## Results and Visualizations
+
+### Historical ETF Price Trend (SPY)
+
+This figure shows the historical price movement of SPY ETF used during portfolio backtesting and risk analysis.
+
+![SPY Historical Price Trend](docs/figures/spy_price_trend.png)
+
+---
+
+### Portfolio Comparison
+
+Comparison of alternative portfolio allocations using historical market data.
+
+![Portfolio Comparison](docs/figures/portfolio_comparison.png)
+
+Key Observation:
+- Portfolio B achieved higher returns.
+- Portfolio B also exhibited higher volatility and downside risk.
+
+---
+
+### Stress Testing Results
+
+Portfolio performance under adverse market conditions.
+
+![Stress Testing](docs/figures/stress_testing.png)
+
+Stress Scenarios:
+- Market Crash (-20%)
+- COVID Style Crash (-30%)
+- Technology Sector Crash (-40%)
+
+---
+
+### Database Schema Snapshot
+
+MySQL database containing client, portfolio, holdings, market data and risk analytics tables.
+
+![Database Schema](docs/figures/dbeaver_schema.png)
+
+---
 
 ## Future Improvements
 
